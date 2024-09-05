@@ -1,0 +1,35 @@
+.hero-section {
+  width: 100%;
+  max-width: 101%;
+  height: auto; /* This might not work as intended for the background image */
+  position: relative;
+  display: flex; /* Align items with flexbox if needed */
+  align-items: center;
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Ensures the image covers the entire container */
+}
+
+/* Background image for small screens */
+@media (max-width: 500px) {
+  .hero-section {
+    background-image: url('./mobile.png');
+    min-height: 300px; /* Ensure there's some height for the background image to display */
+  }
+}
+
+/* Background image for medium screens */
+@media (min-width: 501px) and (max-width: 900px) {
+  .hero-section {
+    background-image: url('./halfscreen.png');
+    min-height: 40vh; /* Adjust the height as needed */
+  }
+}
+
+/* Background image for large screens */
+@media (min-width: 901px) {
+  .hero-section {
+    background-image: url('./fullscreen.png');
+    min-height: 50vh; /* Adjust the height as needed */
+  }
+}
