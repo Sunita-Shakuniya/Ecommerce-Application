@@ -29,7 +29,7 @@ This project is a work in progress. While core functionalities are in place, the
 - **Testing and Bug Fixes**: Ongoing testing to ensure stability and performance.
 
 ## Screenshots
-
+<p>
     <p align="center">1</p>
     <p align="center">
       <img src="https://github.com/Sunita-Shakuniya/data/blob/main/Screenshot%202024-10-26%20002121.png?raw=true" alt="Project Section SS" width="90%">
@@ -55,4 +55,4 @@ This project is a work in progress. While core functionalities are in place, the
       <img src="https://github.com/Sunita-Shakuniya/data/blob/main/Screenshot%202024-11-03%20204330.png?raw=true" alt="Project Section SS" width="90%">
     </p>
     <p align="center">5</p>
-
+</p>
